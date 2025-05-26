@@ -10,7 +10,7 @@ public class Main {
 
         empleados.aumentarSalario(10);
 
-        System.out.println("Después de aumentar salario:");
+        System.out.println(Textos.DESPUES_AUMENTO);
         empleados.mostrarEmpleados();
     }
 }

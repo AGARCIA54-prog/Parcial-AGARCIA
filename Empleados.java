@@ -13,7 +13,7 @@ public class Empleados {
 
     public void mostrarEmpleados() {
         for (Empleado e : lista) {
-            System.out.println("Nombre: " + e.getNombre() + ", Salario: " + e.getSalario() + ", Edad: " + e.getEdad());
+            System.out.println(Textos.NOMBRE + e.getNombre() + Textos.SALARIO + e.getSalario() + Textos.EDAD + e.getEdad());
         }
     }
 
